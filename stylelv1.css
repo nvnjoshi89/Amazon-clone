@@ -1,0 +1,149 @@
+/* ..........SELECTORS........... */
+/* 
+Element selector h1
+h1{
+    color: green;
+}
+p{
+    color:rgb(24, 57, 24);
+}
+button{
+    color: rgb(66, 88, 66);
+    background-color: white;
+}
+body{
+    background-color: rgb(104, 17, 83);
+    background-color: #C1EDCC;
+} */
+
+
+
+/* universal selector consist * */
+/* *{
+    color:blue
+}
+
+h1{
+    color: green;
+} */
+
+/* Id Selector consits#  used to select single element not multiple  */
+/* #headingone{
+    color: red;
+}
+#headingtwo{
+    color: chocolate;
+}
+#headingthree{
+    color: magenta;
+} */
+
+/* class Selector . used to select multiple element */
+
+/* .myClass{
+    color: magenta;
+} */
+
+
+/* #box{
+    background-color: blue;
+    color: white;
+}
+
+.heading{
+    color: red ;
+} */
+
+
+/*--------- TEXT PROPERTIES ---------*/
+
+/* 1. TEXT-ALIGN by default it is left align. Depends on parent, alignment changes according to parent */
+/* p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+} */
+
+/* 2. TEXT-DECORATION */
+/* h1{
+    text-decoration: line-through;
+    
+}
+a{
+    text-decoration: none;
+} */
+
+/*3. FONT-WEIGHT normal/bold/bolder/lighter  100(lightest shade)-900(darkest shade)   font weight tells how light or darker text is written*/
+/* 
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: bolder;
+}
+#h4{
+    font-weight: lighter;
+} */
+
+
+/* 4.FONT-FAMILY /STYLE */
+
+/* #one{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#two{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+} */
+
+
+/* -------------------UNITS IN CSS---------------- */
+
+
+/* 5.......... ABSOLUTE UNIT......| FONT-SIZE| pixels(px) 96px = 1inch = 2.54cm */
+
+/* #one{
+    font-size: 25px;
+}
+#three{
+    font-size: 10px;
+} */
+
+/* 6. LINE-HEIGHT  line height means euta individual line mero kate height leraxa*/
+/* #one{
+    
+    line-height:50PX;
+} */
+
+
+/* 7. TEXT-TRANSFORM : uppercase/lowercase/capitalize/none */
+/* #one{
+    font-size: 25px;
+    line-height:normal;
+    text-transform: uppercase;
+}
+  */
+
+/* practice 2 */
+/* * {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+} */

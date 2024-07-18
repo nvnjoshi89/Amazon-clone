@@ -1,0 +1,77 @@
+/*.............. MEDIA QUERIES .................. */
+
+/* MEDIA QUERIES HELPS TO CTREATE A RESPOSIVE WEBSITES | max media queries is written related to widt*/
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+
+}
+
+/* jastai screen size 600px ma pugxa color change hunxa red ma 600px bhnda tala mathe bhye color change hunna */
+
+
+/* @media(width:600px){
+    div{
+        background-color: red;
+    }
+} */
+
+
+/* jastai screen size 600 bhnda mathe janxa div ko color green hunexa , 600 bhnda tala default color hunexa */
+
+
+/* @media(min-width:600px){
+    div{
+        background-color: green;
+    }
+} */
+
+
+/* jastai screen size 600 bhnda tala janxa div ko color yellow hunexa , 600 bhnda mathe default color hunexa */
+
+
+/* @media(max-width:600px){
+    div{
+        background-color: yellow;
+    }
+} */
+
+
+/* jastai screen size 200 bhnda mathe janxa and 300 bhnda tala aauxa backgroudn bisque hunexa | Range is given */
+
+/* @media(min-width:200px) and (max-width:300px){
+    div{
+        background-color: bisque;
+    }
+} */
+
+
+
+/* .......................PRACTICE...................... */
+
+@media(max-width:300px){
+    div{
+        background-color: green;
+    }
+}
+
+@media(min-width:300px ) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+
+@media(min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}
+
+@media(min-width:600px){
+    div{
+        background-color: blue;
+    }
+}
+

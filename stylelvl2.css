@@ -1,0 +1,205 @@
+/*............... BOX MODEL IN CSS............. */
+
+/* 1.... HEIGHT | by default, it sets the content area height of the element */
+
+/* div{
+    height: 100px;
+    background-color: pink;
+} */
+
+
+/* 2.... WIDTH | by default, it sets the content area width of the element  but div width is full screen*/
+
+/* div{
+    width: 100px;
+    background-color: pink;
+}
+h1{
+    background-color: red;
+    height: 50px;
+} */
+
+
+
+/* 3.... BORDER | Used to set an element's border | border-width border-style border-color border-radius */
+
+/*div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: brown; */
+    /* border: 2px solid brown;
+    text-align: center;
+    border-radius:15px ; */
+
+/* }  */
+
+/* h1{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    height: 50px;
+    border: 2px solid yellow;
+    text-align: center;
+} */
+
+/* PADDING | padding-left padding-right padding-top padding-bottom | it creates a space between content and boundary | when we inspect blue part is content and green part is padding and orange part is margin*/
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    text-align: center;
+    border-radius:15px ;
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px; 
+    padding:25px;
+    */
+    /* padding: 1px 2px 3px 4px; */
+
+/* } */ 
+
+/* MARGIN | margin is the area between two boxes i.e area from one box border to another box border */
+
+
+    /* div{
+        height: 100px;
+        width: 100px;
+        background-color: pink;
+        border: 2px solid brown;
+        text-align: center;
+        border-radius:15px ;
+        padding: 1px 2px 3px 4px;
+        /* margin-top: 50px; */
+        /* margin:25px */
+    
+    /* } */ 
+
+
+/*........... practice set 3 making a navbar........ */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+/* *{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+
+#navbar{
+    height: 50px;
+    background-color: #0f1111 ;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+} */
+
+
+
+/*................ DISPLAY PROPERTY............... */
+
+/* DISPLAY: inline | Takes only the space required by the element.(no margin/no padding) eg: SPAN,BUTTON,A,INPUT*/
+/* drawbacks : when we set display-inline in block element then we cannot set margin top and bottom and width and height for content so new property is intoduced inline-block */
+/* div{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+} */
+
+
+
+
+
+/* DISPLAY: block | Takes 100% width.Block element always start with next line.eg: DIV,H1*/
+/* button{
+    display: block;
+} */
+
+/* DISPLAY:inline-block | similar to inline but we can set margin, padding, width and height| mainly used for block element to overcome drawbacks of display-inline * | USE THIS/
+div{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+
+/* DISPLAY-none | To remove element from document flow. No space is reserved or blocked for the element*/
+/* #box2{
+    visibility: hidden;
+} */
+
+
+/* VISIBILITY | visibility:hidden | when visibility is set to none, space for the element is reserved But for display set to none, no space is reserved or blocked for the element */
+
+
+
+/* OPACITA RGBA */
+/* div{
+    background-color:rgba(255,0,0,0.5);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block; 
+} */
+
+
+/* PRACTICE SET 4 */
+
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content{
+    height: 700px;
+}
+
+#navbar{
+    height: 50px;
+    background-color: #0f1111 ;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+    color: white;
+} 
+footer{
+    background-color:#0f1111 ;
+    color: white;
+    text-align: center;
+}

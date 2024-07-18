@@ -1,0 +1,285 @@
+/*................. FLEXBOX......................... */
+
+/* It is a one-dimensional layout method for arranging items in rows or columns. container lai flex property deyo bhne sab element container ko bhetra rahanexa element ko height width thulo bhyene adjust garxan container bhetra rahana jab samma tenehruko content/fontsize allow grxa*/
+
+/* FLEXDIRECTION - IT SETS HOW FLEX ITEMS ARE PLACE IN THE FLEX CONTAINER, ALONG WHICH AXIS AND DIRECTION */
+
+/* flex-direction:row (default) | row means Sab element ko main axis row ma hunexa xa, row means left to right */
+
+/* flex-direction:row-reverse  | row means Sab element ko main axis row ma hunexa xa but directin reverse hunexa  mean element right to left janexa */
+
+/* flex-direction:column  | colum means Sab element verically arrange hunxa ra main axis top to bottom hunexa*/
+
+/* flex-direction:column-reverse  | colum means Sab element verically arrange hunxa ra but direction reverse hunxa main axis bottom to top hunexa*/
+
+
+
+/* body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    
+
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+} */
+
+
+/* ............Flex properties for flex container.............. */
+
+/* JUSTIFY-CONTENT: alignment along the main axis. flex-start /flex-end /  centre  /   space-evenly */
+
+/* flex:start - means main axis ko start, direction row xa bhne left to right hunxa */
+
+/* flex:end - means main axis ko end, direction row xa bhne right to left hunxa */
+
+/* flex:center - means main axis ko center */
+
+/* flex:space - means element hru evenly basxan left to right if flex-direction: row xa bhne */
+/* body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    
+
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+} */
+
+
+/* ALIGN-ITEMS: BY DEFAULT FLEX-DIRECTION IS ROW AND IN THIS CASE ALIGN-ITEMS WORKS ON VERTICAL BUT JUSTIFY-CONTENT WORKS ON HORIZONTAL | Applied on container manau cross axis ko adar ma item lai align grnu xa bhne whereas align-self is applied on individual flex item*/
+
+/* stretch(default) if height width is not given to container, flex-start / flext-end / center / baseline  */
+
+
+/* body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    
+
+}
+
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row; */
+
+    /* align-items: start;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color:darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}
+
+
+/* FLEX-WRAP AND FLEX-FLOW | YEDE CONTAINER BHETRA DHERAI ITEM BHYE BHNE ITEM CONTAINER BAIRA JANASAKXA SO ESKO SOLUTION KO LAGE HAME flex-wrap:wrap use grxau */
+
+/*flex-wrap:nowrap(default) / flex-wrap:wrap / flex-wrap:wrap-reverse/  */
+
+/* AlIGN-CONTENT: ALIGNMENT OF SPACE BETWEEN AND AROUND THE CONTENT ALONG CROSS-AXIS: BY DEFAULT FLEX-DIRECTION:ROW HUNXA RA ALIGN CONTENT USE GREPAXE VERITCALLY ITEM HRULAI ARRANGE GRNA SAKENXA */
+
+/* align-content: flex start gre bhne top bata content start hunxa ra gap hunna bechma wrap usegreko bele but align-item :flex-start grepaxe gap hunxa */
+
+ /* body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    
+
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+    height:200px ;
+
+}
+#box3{
+    background-color:darkkhaki;
+    height:75px ;
+
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+} */
+
+
+
+/* FLEX PROPERTIES FOR FLEX ITEM */
+
+/* ALIGN-SELF - ALIGNMENT OF INDIVIDUAL ITEMS/OBJECCTS ALONG THE CROSS AXIS  |higest priority then other property applied to container | Applied on individual item on flexbox whereas align-item is Applied on container manau cross axis ko adar ma item lai align grnu xa bhne*/
+
+/* FLEX-GROW - HOW MUCH A FLEX ITEM WILL GROW RELATIVE TO THE REST OF THE FLEX ITEMS IF SPACE IS AVAILABLE | kaile kai container sano bhye paxe item hru ni sano hunxan adjust grna ra container thulo bhye paxe khale space pane bake ranxa so item hru lai grow grna sakxau yo property bata*/
+
+/* FLEX-SHRINk - HOW MUCH A FLEX ITEM WILL SHRINK RELATIVE TO THE REST OF THE  | default ma factor 1 hunxa dherai shrink graunu xa ta 1 bhnda bade value dene aru bhnda kam shrink graunu xa ta 1 bhnda kam dene*/
+
+/* body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    
+
+}
+ 
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row; 
+    /* flex-wrap: wrap; */
+   /* align-items: flex-start; */
+   /* align-content: center; */
+/* }
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+    height:200px ;
+    flex-shrink: 1;
+
+}
+#box3{
+    background-color:darkkhaki;
+    height:75px ;
+
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+    
+} */
+
+
+
+
+
+/*................ PRACTICE SET 6 ...................*/
+#navbar{
+    background-color: rgb(16, 9, 9);
+    height: 100px;  
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li{
+    list-style-type: none;
+}
+
+#box1{
+    height: 400px;
+    width:400px;
+    background-color: red;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color: purple;
+    
+}
